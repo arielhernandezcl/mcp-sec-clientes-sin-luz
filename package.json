@@ -1,0 +1,31 @@
+{
+  "name": "mcp-sec-clientes-sin-luz",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Servidor MCP local (stdio) para consultar cortes de suministro eléctrico y clientes afectados de la SEC de Chile.",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arielhernandezcl/mcp-sec-clientes-sin-luz.git"
+  },
+  "author": "Ariel Hernandez",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "sec",
+    "chile",
+    "cortes-de-luz",
+    "energia"
+  ],
+  "engines": {
+    "bun": ">=1.1"
+  },
+  "scripts": {
+    "start": "bun run index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "zod": "^3.25.76"
+  }
+}

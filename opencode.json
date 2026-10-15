@@ -1,0 +1,12 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "servers": {
+      "sec-clientes-sin-luz": {
+        "type": "local",
+        "command": ["bun", "run", "index.ts"],
+        "cwd": "."
+      }
+    }
+  }
+}
